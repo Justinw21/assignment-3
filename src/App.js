@@ -63,7 +63,8 @@ class App extends Component {
           accountBalance: credit - debit
         });
   }
-  //Update debitList with the inputs from the Debit Form
+  
+  //Updates debit list
   addDebit = (description, amount) => {
     //Converting amount to Number and rounding it to 2 decimal places
     const formAmount = Number(amount);
